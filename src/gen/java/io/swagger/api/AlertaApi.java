@@ -33,7 +33,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the alerta API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-25T22:39:12.589Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-25T22:45:18.025Z[GMT]")
 
 public class AlertaApi  {
    private final AlertaApiService delegate;
@@ -100,7 +100,7 @@ public class AlertaApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Alerta registrada correctamente. Devuelve ID de alerta.", response = String.class),
         
         @io.swagger.annotations.ApiResponse(code = 400, message = "Error al insertar la alerta.", response = String.class) })
-    public Response alertaPost(@ApiParam(value = "" ) Object body
+    public Response alertaPost(@ApiParam(value = "" ) Alerta body
 ,@Context SecurityContext securityContext)
     throws NotFoundException {
         return delegate.alertaPost(body,securityContext);

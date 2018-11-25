@@ -20,7 +20,7 @@ import javax.ws.rs.core.SecurityContext;
 
 import javax.validation.constraints.*;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-25T22:39:12.589Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-25T22:45:18.025Z[GMT]")
 
 public abstract class AlertaApiService {
     
@@ -28,7 +28,7 @@ public abstract class AlertaApiService {
     
     public abstract Response alertaGet( String usuarioId,SecurityContext securityContext) throws NotFoundException;
     
-    public abstract Response alertaPost(Object body,SecurityContext securityContext) throws NotFoundException;
+    public abstract Response alertaPost(Alerta body,SecurityContext securityContext) throws NotFoundException;
     
     public abstract Response alertaPut(Alerta body,SecurityContext securityContext) throws NotFoundException;
     
