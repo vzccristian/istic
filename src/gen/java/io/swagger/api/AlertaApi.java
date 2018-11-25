@@ -33,7 +33,7 @@ import javax.validation.constraints.*;
 
 
 @io.swagger.annotations.Api(description = "the alerta API")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T17:27:27.196Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T20:02:18.163Z[GMT]")
 
 public class AlertaApi  {
    private final AlertaApiService delegate;
@@ -60,19 +60,35 @@ public class AlertaApi  {
    }
 
 
-    @PUT
+    @DELETE
     
-    @Consumes({ "application/json" })
-    @Produces({ "application/json", "text/plain" })
-    @io.swagger.annotations.ApiOperation(value = "Actualizar alerta almacenada.", notes = "Actualizar una alerta almacenada.", response = Alertas.class, tags={ "alertas", })
+    
+    @Produces({ "text/plain" })
+    @io.swagger.annotations.ApiOperation(value = "Borra una alerta", notes = "Borra una notificación especifica", response = String.class, tags={ "alertas", })
     @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 200, message = "Alerta actualizada correctamente.", response = Alertas.class),
+        @io.swagger.annotations.ApiResponse(code = 200, message = "El borrado se ha realizado correctamente", response = String.class),
         
-        @io.swagger.annotations.ApiResponse(code = 400, message = "Error al actualizar alerta.", response = String.class) })
-    public Response actualizarAlerta(@ApiParam(value = "" ) List<Alerta> body
+        @io.swagger.annotations.ApiResponse(code = 400, message = "La alerta no ha sido borrada", response = String.class) })
+    public Response alertaDelete(@ApiParam(value = "ID del usuario",required=true) @QueryParam("usuarioId") String usuarioId
+,@ApiParam(value = "Identificador de la notificacion",required=true) @QueryParam("notificacionId") String notificacionId
 ,@Context SecurityContext securityContext)
     throws NotFoundException {
-        return delegate.actualizarAlerta(body,securityContext);
+        return delegate.alertaDelete(usuarioId,notificacionId,securityContext);
+    }
+
+    @GET
+    
+    
+    @Produces({ "application/json", "text/plain" })
+    @io.swagger.annotations.ApiOperation(value = "Obtener todas las alertas de un usuario.", notes = "Obtener todas las alertas de un usuario.", response = Alertas.class, tags={ "alertas", })
+    @io.swagger.annotations.ApiResponses(value = { 
+        @io.swagger.annotations.ApiResponse(code = 200, message = "Array de alertas correspondientes al usuario", response = Alertas.class),
+        
+        @io.swagger.annotations.ApiResponse(code = 400, message = "Error al obtener la alerta.", response = String.class) })
+    public Response alertaGet(@ApiParam(value = "Devuelve todas las alertas del usuario en la ID dada.") @QueryParam("usuarioId") String usuarioId
+,@Context SecurityContext securityContext)
+    throws NotFoundException {
+        return delegate.alertaGet(usuarioId,securityContext);
     }
 
     @POST
@@ -90,35 +106,19 @@ public class AlertaApi  {
         return delegate.alertaPost(body,securityContext);
     }
 
-    @DELETE
+    @PUT
     
-    
-    @Produces({ "text/plain" })
-    @io.swagger.annotations.ApiOperation(value = "Borra una alerta", notes = "Borra una notificación especifica", response = String.class, tags={ "alertas", })
-    @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 200, message = "El borrado se ha realizado correctamente", response = String.class),
-        
-        @io.swagger.annotations.ApiResponse(code = 400, message = "La alerta no ha sido borrada", response = String.class) })
-    public Response borrarAlerta(@ApiParam(value = "ID del usuario",required=true) @QueryParam("usuarioId") String usuarioId
-,@ApiParam(value = "Identificador de la notificacion",required=true) @QueryParam("notificacionId") String notificacionId
-,@Context SecurityContext securityContext)
-    throws NotFoundException {
-        return delegate.borrarAlerta(usuarioId,notificacionId,securityContext);
-    }
-
-    @GET
-    
-    
+    @Consumes({ "application/json" })
     @Produces({ "application/json", "text/plain" })
-    @io.swagger.annotations.ApiOperation(value = "Obtener todas las alertas de un usuario.", notes = "Obtener todas las alertas de un usuario.", response = Alertas.class, tags={ "alertas", })
+    @io.swagger.annotations.ApiOperation(value = "Actualizar alerta almacenada.", notes = "Actualizar una alerta almacenada.", response = Alerta.class, tags={ "alertas", })
     @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 200, message = "Array de alertas correspondientes al usuario", response = Alertas.class),
+        @io.swagger.annotations.ApiResponse(code = 200, message = "Alerta actualizada correctamente.", response = Alerta.class),
         
-        @io.swagger.annotations.ApiResponse(code = 400, message = "Error al obtener la alerta.", response = String.class) })
-    public Response obtenerAlertas(@ApiParam(value = "Devuelve todas las alertas del usuario en la ID dada.") @QueryParam("usuarioId") String usuarioId
+        @io.swagger.annotations.ApiResponse(code = 400, message = "Error al actualizar alerta.", response = String.class) })
+    public Response alertaPut(@ApiParam(value = "" ) Alerta body
 ,@Context SecurityContext securityContext)
     throws NotFoundException {
-        return delegate.obtenerAlertas(usuarioId,securityContext);
+        return delegate.alertaPut(body,securityContext);
     }
 
 }

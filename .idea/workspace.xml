@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9f98f9a-fea0-493e-82b1-0970799abf55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertaApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertaApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertaApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/api/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/api/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Alerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Alerta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Alertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Alertas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/model/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/io/swagger/model/TodasAlertas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/io/swagger/model/TodasAlertas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/factories/AlertaApiServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/factories/AlertaApiServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/factories/AlertasApiServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/factories/AlertasApiServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/impl/AlertaApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/impl/AlertaApiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/impl/AlertasApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/impl/AlertasApiServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="220" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9f98f9a-fea0-493e-82b1-0970799abf55" name="Default Changelist" comment="" />
+      <created>1543177193003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543177193003</updated>
+      <workItem from="1543177195489" duration="547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="547000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="2493" height="1415" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496935" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.5015552" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/gen/java/io/swagger/api/AlertasApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

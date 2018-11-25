@@ -21,7 +21,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import java.util.Date;
 
 
 
@@ -33,7 +32,7 @@ import javax.validation.constraints.*;
 /**
  * Alerta
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T17:27:27.196Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T20:02:18.163Z[GMT]")
 public class Alerta   {
   
     
@@ -80,7 +79,7 @@ public class Alerta   {
   
   
   
-  private Date fecha = null;
+  private String fecha = null;
   
 
   
@@ -209,7 +208,7 @@ public class Alerta   {
 
   
   
-  public Alerta fecha(Date fecha) {
+  public Alerta fecha(String fecha) {
     this.fecha = fecha;
     return this;
   }
@@ -234,12 +233,12 @@ public class Alerta   {
 
   @NotNull
 
-  public Date getFecha() {
+  public String getFecha() {
     return fecha;
   }
   
 
-  public void setFecha(Date fecha) {
+  public void setFecha(String fecha) {
     this.fecha = fecha;
   }
   

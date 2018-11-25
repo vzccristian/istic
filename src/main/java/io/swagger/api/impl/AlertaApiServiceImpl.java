@@ -20,12 +20,18 @@ import javax.ws.rs.core.SecurityContext;
 
 import javax.validation.constraints.*;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T17:27:27.196Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.java.JavaJerseyServerCodegen", date = "2018-11-24T20:02:18.163Z[GMT]")
 
 public class AlertaApiServiceImpl extends AlertaApiService {
     
     @Override
-    public Response actualizarAlerta(List<Alerta> body, SecurityContext securityContext) throws NotFoundException {
+    public Response alertaDelete( @NotNull String usuarioId,  @NotNull String notificacionId, SecurityContext securityContext) throws NotFoundException {
+        // do some magic!
+        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
+    }
+    
+    @Override
+    public Response alertaGet( String usuarioId, SecurityContext securityContext) throws NotFoundException {
         // do some magic!
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
     }
@@ -37,13 +43,7 @@ public class AlertaApiServiceImpl extends AlertaApiService {
     }
     
     @Override
-    public Response borrarAlerta( @NotNull String usuarioId,  @NotNull String notificacionId, SecurityContext securityContext) throws NotFoundException {
-        // do some magic!
-        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
-    }
-    
-    @Override
-    public Response obtenerAlertas( String usuarioId, SecurityContext securityContext) throws NotFoundException {
+    public Response alertaPut(Alerta body, SecurityContext securityContext) throws NotFoundException {
         // do some magic!
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
     }
