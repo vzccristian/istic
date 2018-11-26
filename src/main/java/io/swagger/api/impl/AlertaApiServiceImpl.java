@@ -25,7 +25,7 @@ import java.util.*;
 
 public class AlertaApiServiceImpl extends AlertaApiService {
     
-    Map<String, List<Alerta>> alertMap = new HashMap<String, List<Alerta>>();
+    static Map<String, List<Alerta>> alertMap = new HashMap<String, List<Alerta>>();
     int numberControl = 0;
     
     @Override

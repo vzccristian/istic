@@ -25,8 +25,8 @@ public class AlertasApiServiceImpl extends AlertasApiService {
     
     @Override
     public Response alertasGet(SecurityContext securityContext) throws NotFoundException {
-        // do some magic!
-        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
+        System.out.println(AlertaApiServiceImpl.alertMap);
+        return Response.ok().entity(AlertaApiServiceImpl.alertMap).build();
     }
     
 }
